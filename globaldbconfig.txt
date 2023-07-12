@@ -1,4 +1,5 @@
 #Note: Date is actually the date the stanza was last updated/uploaded to whatever the source is, not when I updated it on our server.
+## The source of this info is at https://github.com/switchlibrary/EZproxy.
 
 ##DO NOT UPDATE THIS FILE ON THE EZPROXY SERVER ITSELF.  ANY CHANGE YOU MAKE THERE WILL BE ERASED.
 
