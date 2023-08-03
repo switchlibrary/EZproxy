@@ -4185,6 +4185,14 @@ Find https:\/\/
 Replace https://
 Option Cookie
 
+#Sports Business Journal
+#Source: Complete guesswork
+#Date: 2023-08-03
+Title Sports Business Journal
+URL http://sportsbusinessjournal.com
+HJ www.sportsbusinessjournal.com
+DJ sportsjournal.com
+
 ##Springer Publishing
 ##Date: 2022-06-28
 ##Source: OCLC
