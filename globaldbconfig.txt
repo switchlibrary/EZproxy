@@ -3800,6 +3800,27 @@ HJ https://muse.uq.edu.au
 DJ muse.jhu.edu
 Option Cookie
 
+
+##Pre-Proquest stanza to deal with cookies
+AnonymousURL +*
+Title -hide CookieLaw (updated 20220725)
+HTTPHeader -Request -process Sec-*
+HTTPHeader -Response -process CF-*
+HTTPHeader -Response -process Expect-CT
+URL https://cdn.cookielaw.org
+DJ cookielaw.org
+DJ cookiepro.com
+DJ onetrust.com
+Find domain=."+i[0]+"
+Replace domain="+location.hostname+"
+Find domain=."+l[0]+"
+Replace domain="+location.hostname+"
+Find domain=."+a[0]+"
+Replace domain="+location.hostname+"
+Find "bmj.com"
+Replace "^H"
+AnonymousURL -*
+
 ##ProQuest   
 ##Date: (2022-08-04)
 ##Source: 
