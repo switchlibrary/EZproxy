@@ -3447,24 +3447,20 @@ HJ www.oxforddnb.com
 HJ oxforddnb.com
 DJ oxforddnb.com
 
-
 #OED
 #Source: OCLC
-#Date: 2023-07-07
+#Date: 2023-08-15
 Option CookiePassThrough
 HTTPMethod OPTIONS
 HTTPMethod PATCH
 HTTPMethod DELETE
 AnonymousURL -OPTIONS +https://oed.com/css/*
 AnonymousURL +https://oed.com/css/*
-Title Oxford English Dictionary (OED) (Updated 20230705)
+Title Oxford English Dictionary (OED) (Updated 20230815)
 HTTPHeader -request -inject x-proxy-server (server:url:http =~ "@^http://([^:]+)@", re:1)
 URL https://www.oed.com
 HJ https://oed.com/
 HJ https://www.oed.com/
-HJ https://oup-idp.sams-sigma.com
-HJ https://oup3-idp.sams-sigma.com
-HJ https://oup2-idp.sams-sigma.com
 HJ oed.com
 HJ dictionary.oed.com
 HJ english.oxforddictionaries.com
@@ -3472,8 +3468,10 @@ HJ oxforddictionaries.com
 DJ oed.com
 DJ oxforddictionaries.com
 DJ oed-text-visualizer.oxfordlanguages.com
-DJ sams-sigma.com
 AnonymousURL -*
+NeverProxy oup-idp.sams-sigma.com
+NeverProxy oup2-idp.sams-sigma.com
+NeverProxy oup3-idp.sams-sigma.com
 NeverProxy cdn.privado.ai
 Option Cookie
 
@@ -3497,47 +3495,6 @@ HJ https://oxfordwesternmusic.com
 HJ www.oxfordwesternmusic.com
 HJ oxfordwesternmusic.com
 DJ oxfordwesternmusic.com 
-
-Title Oxford University Press Law (updated 20190410)
-URL https://oxfordlawreports.com/
-HJ https://www.oxfordlawreports.com/
-HJ academic.oup.com
-HJ ildc.oxfordlawreports.com
-HJ oxfordlawreports.com
-HJ www.oxfordlawreports.com
-HJ citator.ouplaw.com
-HJ olrl.ouplaw.com
-HJ opil.ouplaw.com
-HJ oxcat.ouplaw.com
-HJ oxia.ouplaw.com
-HJ oxcon.ouplaw.com
-HJ www.olrl.ouplaw.com
-HJ www.ouplaw.com
-HJ www.oxcat.ouplaw.com
-HJ www.oxia.ouplaw.com
-HJ www.oxcon.ouplaw.com
-HJ ouplaw.com
-HJ https://academic.oup.com
-HJ https://ildc.oxfordlawreports.com
-HJ https://oxfordlawreports.com
-HJ https://www.oxfordlawreports.com
-HJ https://citator.ouplaw.com
-HJ https://olrl.ouplaw.com
-HJ https://opil.ouplaw.com
-HJ https://oxcat.ouplaw.com
-HJ https://oxia.ouplaw.com
-HJ https://oxcon.ouplaw.com
-HJ https://www.olrl.ouplaw.com
-HJ https://www.ouplaw.com
-HJ https://www.oxcat.ouplaw.com
-HJ https://www.oxia.ouplaw.com
-HJ http://www.oxcon.ouplaw.com
-HJ https://ouplaw.com
-HJ https://global.oup.com
-HJ https://www.oup.com
-DJ oxfordlawreports.com
-DJ ouplaw.com
-DJ oup.com
 
 Title Oxford Medicine Online (updated 20190410)
 URL https://www.oxfordmedicine.com
@@ -3730,7 +3687,9 @@ DJ ukwhoswho.com
 
 ##Oxford Academic formerly journals
 ##Source: OCLC
-Title Oxford Academic (formerly Oxford Journals) (updated 20211214)
+AnonymousURL +https://oup.silverchair-cdn.com/
+Title Oxford Academic (formerly Oxford Journals) (updated 20230106)
+HTTPHeader -request -inject x-proxy-server (server:url:http =~ "@^http://([^:]+)@", re:1)
 URL https://academic.oup.com/
 HJ https://academic.oup.com
 HJ https://global.oup.com
@@ -3742,6 +3701,7 @@ DJ oup.com
 DJ watermark.silverchair.com
 Find domain="//global.oup.com"
 Replace domain="//^sglobal.oup.com^"
+AnonymousURL -*
 NeverProxy oup3-idp.sams-sigma.com
 NeverProxy oup2-idp.sams-sigma.com
 NeverProxy oup-idp.sams-sigma.com
