@@ -2928,13 +2928,35 @@ DJ ommbid.com
 DJ jamaevidence.com
 
 ##Medicines Complete
-##Date: 2018-04-09
-##Source: Medicines Complete customer support
-URL http://www.medicinescomplete.com/
-HJ www.new.medicinescomplete.com
+##Date: 2021-09-24
+##Source: OCLC
+AnonymousURL +https://pharmaceutical-journal.com/wp-json/pj/hsauth/v1/ip-access-check*
+AnonymousURL +https://pharmaceutical-journal.com/wp-json/pj/premium-content/v1/access-check*
+Title Pharmaceutical Press (updated 20210924)
+URL https://www.medicinescomplete.com/
+HJ about.medicinescomplete.com
+HJ https://about.medicinescomplete.com
+HJ https://idp.sams-sigma.com
+HJ https://medicinescomplete.com
+HJ https://pharmj.wpengine.com
+HJ https://www.medicinescomplete.com
 HJ https://www.new.medicinescomplete.com
-Host https://idp.sams-sigma.com/
+HJ idp.sams-sigma.com
+HJ medicinescomplete.com
+HJ pharmaceutical-journal.com
+HJ https://pharmaceutical-journal.com
+HJ pharmj.wpengine.com
+HJ pjonline.com
+HJ www.medicinescomplete.com
+HJ www.new.medicinescomplete.com
+HJ www.pharmaceutical-journal.com
+HJ www.pjonline.com
 DJ medicinescomplete.com
+DJ pjonline.com
+DJ pharmaceutical-journal.com
+Find https:\/\/pharmaceutical-journal.com
+Replace https:\/\/^spharmaceutical-journal.com^
+AnonymousURL -*
 
 ##Mergent Archives
 ##Source: Vendor email
@@ -3724,13 +3746,6 @@ DJ pharmacylibrary.com
 DJ pharmacist.com
 NeverProxy *.literatumonline.com
 Option cookie
-
-##Pharmaceutical Press
-##Date ??
-##Source: Best Guess
-T Pharmaceutical Press (SWITCH Best Guess)
-U http://www.pharmpress.com/
-D pharmpress.com
 
 ##Philosophy Documentation Center (PHILOSOPHERS INFORMATION CTR)
 ##Date: (2015-09-15)
