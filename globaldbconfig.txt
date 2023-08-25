@@ -4239,6 +4239,18 @@ D netadvantage.standardandpoors.com
 ## Stockley's drug interactions 
 ## Included in Pharamaceutical Press
 
+#STAT!Ref
+#Source: OCLC
+#Date: 2021-10-04
+Title STAT!Ref (updated 20211004)
+URL https://online.statref.com/
+HJ www.statref.com
+HJ https://online.statref.com
+HJ http://online.statref.com
+HJ marketing.statref.com
+HJ online.statref.com
+DJ statref.com
+
 ##Street & Smith
 ##Date ??
 ##Source Best guess.
