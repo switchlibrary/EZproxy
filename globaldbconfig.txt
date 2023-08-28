@@ -2548,13 +2548,17 @@ HJ  https://aluka.org
 DJ  aluka.org
 
 ##Learning Express Library 3.0   
-##Date (2015-10-01)
-##Source https://www.oclc.org/support/services/ezproxy/documentation/db/learning_express.en.html
+##Date (2023-08-28)
+##Source https://connect.ebsco.com/s/article/How-do-I-enable-access-to-LearningExpress-through-my-proxy-server?language=en_US
 Option Cookie
-Title LearningExpress Library 3.0
-URL http://www.learningexpresslibrary3.com
-DJ learningexpresslibrary3.com
-DJ learningexpresshub.com 
+Title LearningExpress Library
+URL http://www.learningexpresslibrary.com
+HJ https://www.learningexpresslibrary.com
+HJ learningexpresslibrary.com
+HJ https://www.learningexpresshub.com
+HJ learningexpresshub.com
+DJ learningexpresslibrary.com
+DJ learningexpresshub.com
 
 ##Lexi-Comp
 ##Date ??
