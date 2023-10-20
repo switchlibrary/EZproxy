@@ -2497,7 +2497,7 @@ NeverProxy cdn.jove.com
 #This cookie law stanza is supposed to be above the jstor stanza per OCLC instructions
 
 AnonymousURL +*
-Title -hide CookieLaw (OCLC IncludeFile updated 20230905)
+Title -hide CookieLaw (OCLC IncludeFile updated 20231017)
 HTTPHeader -Request -process Sec-*
 HTTPHeader -Response -process CF-*
 HTTPHeader -Response -process Expect-CT
@@ -2511,6 +2511,8 @@ Find domain=."+l[0]+"
 Replace domain="+location.hostname+"
 Find domain=."+a[0]+"
 Replace domain="+location.hostname+"
+Find domain=."+s[0]+"
+Replace domain="+location.hostname+"
 Find "bmj.com"
 Replace "^H"
 Find "www.astctjournal.org"
@@ -2518,6 +2520,14 @@ Replace "^H"
 Find "astctjournal.org"
 Replace "^H"
 Find "econtent.hogrefe.com"
+Replace "^H"
+Find "www.thieme-connect.de"
+Replace "^H"
+Find "thieme.de"
+Replace "^H"
+Find "www.thieme-connect.com"
+Replace "^H"
+Find "thieme.com"
 Replace "^H"
 AnonymousURL -*
 
@@ -3280,8 +3290,9 @@ DJ oclc.org
 ##Date: 2023-06-12
 ##Source: OCLC
 #Seperate cookielaw stanza added first per vendor instrucitons starting 6/2023
+
 AnonymousURL +*
-Title -hide CookieLaw (OCLC IncludeFile updated 20230905)
+Title -hide CookieLaw (OCLC IncludeFile updated 20231017)
 HTTPHeader -Request -process Sec-*
 HTTPHeader -Response -process CF-*
 HTTPHeader -Response -process Expect-CT
@@ -3295,6 +3306,8 @@ Find domain=."+l[0]+"
 Replace domain="+location.hostname+"
 Find domain=."+a[0]+"
 Replace domain="+location.hostname+"
+Find domain=."+s[0]+"
+Replace domain="+location.hostname+"
 Find "bmj.com"
 Replace "^H"
 Find "www.astctjournal.org"
@@ -3302,6 +3315,14 @@ Replace "^H"
 Find "astctjournal.org"
 Replace "^H"
 Find "econtent.hogrefe.com"
+Replace "^H"
+Find "www.thieme-connect.de"
+Replace "^H"
+Find "thieme.de"
+Replace "^H"
+Find "www.thieme-connect.com"
+Replace "^H"
+Find "thieme.com"
 Replace "^H"
 AnonymousURL -*
 
