@@ -3516,6 +3516,7 @@ DJ oxforddnb.com
 #OED
 #Source: OCLC
 #Date: 2023-08-15
+#Per OCLC, the OED stanza must be before the Oxford Academic journals Stanza.  
 Option CookiePassThrough
 HTTPMethod OPTIONS
 HTTPMethod PATCH
