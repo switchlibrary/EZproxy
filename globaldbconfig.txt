@@ -587,6 +587,15 @@ Host https://ssl.geoplugin.net
 HJ ssl.geoplugin.net
 DJ geoplugin.net
 
+#Source:OCLC
+Title Bloomsbury Video Library (Added 20230106)
+URL https://www.bloomsburyvideolibrary.com/
+HJ www.bloomsburyvideolibrary.com
+HJ bloomsburyvideolibrary.com
+HJ https://www.bloomsburyvideolibrary.com
+HJ https://bloomsburyvideolibrary.com
+DJ bloomsburyvideolibrary.com
+
 #Bloomsbury Visual Arts
 #Source: Vendor e-mail
 #Date 2023-03-16
