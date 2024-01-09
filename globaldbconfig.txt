@@ -3127,6 +3127,19 @@ DJ mlahandbook.org
 Find https:\/\/
 Replace https://
 
+# National Council of Teachers of Mathematics
+# Date 2023-01-03
+# Source: OCLC
+T National Council of Teachers of Mathematics (OCLC IncludeFile updated 20230103)
+HTTPHeader -request -process X-Requested-With
+U https://www.nctm.org/
+HJ https://nctm.org
+HJ https://pubs.nctm.org
+HJ nctm.org
+HJ pubs.nctm.org
+HJ www.nctm.org
+DJ nctm.org
+
 ##Natural Medicines (aka Natural Medicines Comprehensive Database)
 ##Date: (2015-06-17)
 ##Source: https://www.oclc.org/support/services/ezproxy/documentation/db/naturalstandard.en.html
