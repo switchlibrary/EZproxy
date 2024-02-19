@@ -3817,7 +3817,6 @@ AnonymousURL -*
 NeverProxy oup3-idp.sams-sigma.com
 NeverProxy oup2-idp.sams-sigma.com
 NeverProxy oup-idp.sams-sigma.com
-IncludeFile databases/oxfordjournals.txt
 
 ##Palgrave Macmillan
 T Palgrave Macmillan (SWITCH Best Guess)
