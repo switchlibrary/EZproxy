@@ -5007,27 +5007,18 @@ Domain wiscat.net
 ##Wisconsin Library Services (WiLS)*
 
 ##Women's Wear Daily (WWD)
-##Source: OCLC
-##Date: 12/8/2016
-##Women's Wear Daily (WWD)
-##Source: OCLC
-##Date: 12/8/2016
+##Source: WWD
+##Date: 4/22/2024
 Option CookiePassThrough
-Title Women's Wear Daily
+Title Women's Wear Daily (updated 20240201)
 URL http://wwd.com/
 HJ https://wwd.com
-DJ wwd.com
-Find https:\/\/
-Replace https://
-Option Cookie
-
-##Women's Wear Daily (WWD)
-##Source: OCLC Customer support (not oclc.org)
-##Date:  6/21/2022
-Option CookiePassThrough
-Title Women's Wear Daily
-URL http://wwd.com/
-HJ https://wwd.com
+HJ http://piano.io
+HJ https://piano.io
+HJ http://tinypass.com
+HJ https://tinypass.com
+DJ tinypass.com
+DJ http://piano.io
 DJ wwd.com
 Find https:\/\/
 Replace https://
