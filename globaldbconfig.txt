@@ -2370,14 +2370,16 @@ HJ www.publishingtechnology.com
 HJ publishingtechnology.com
 DJ publishingtechnology.com
 
-##IOS Press
-##Date (2015-12-29)
-##Source https://www.oclc.org/support/services/ezproxy/documentation/db/iospress.en.html
 Option DomainCookieOnly
-Title IOS Press
-URL http://content.iospress.com
+Title IOS Press (updated 20181109)
+URL https://content.iospress.com
 HJ content.iospress.com
+HJ ebooks.iospress.com
+HJ https://content.iospress.com
+HJ https://www.iospress.nl
+HJ www.ebooks.iospress.com
 HJ www.iospress.nl
+HJ ebooks.iospress.nl
 DJ iospress.com
 DJ iospress.nl
 Option Cookie
